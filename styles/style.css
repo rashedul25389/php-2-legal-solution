@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.eb-garamond-font {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-regular {font-family: "Poppins", sans-serif;font-weight: 400;font-style: normal;}
+
+.poppins-medium {font-family: "Poppins", sans-serif;font-weight: 500;font-style: normal;}
+
+.poppins-semibold {font-family: "Poppins", sans-serif;font-weight: 600;font-style: normal;}
+
+.poppins-bold {font-family: "Poppins", sans-serif;font-weight: 700;font-style: normal;}
+
+.poppins-extrabold {font-family: "Poppins", sans-serif;font-weight: 800;font-style: normal;}
+
+.poppins-black {font-family: "Poppins", sans-serif;font-weight: 900;font-style: normal;}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+    font-size: 16px;
+    font-weight: 400;
+}
+h1, h2, h3, h4{
+    font-family: 'EB Garamond', serif;
+
+}
+.navbar-item img{
+    width: 9px;
+    height: 18px;
+}
+.banner::before{
+    content: '';
+    background: linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%);
+    position: absolute;
+    transform: rotate(-180deg);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+.laws-details{
+    transition: 1ms;
+}
+.laws-details:hover{
+    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+    border: 1px solid #E7E7E7;
+}
