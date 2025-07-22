@@ -34,7 +34,7 @@ h1, h2, h3, h4{
     width: 9px;
     height: 18px;
 }
-.banner::before{
+.banner::before, .client-bg::before{
     content: '';
     background: linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%);
     position: absolute;
